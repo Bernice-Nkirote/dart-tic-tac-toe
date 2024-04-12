@@ -54,7 +54,7 @@ void checkwinner(List gamesdashboard, String player) {
     for (int j = 0; j < 3; j++) {
       if (gamesdashboard[i][j] == '') {
         isDraw = false;
-        break; //will be used to break out of inner loop as soon as we realise that the column is empty
+        break; //will be used to break out of inner loop as soon as we realise that the column is empty so that the game can continue.
       }
     }
   }
